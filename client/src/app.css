@@ -1,0 +1,206 @@
+/*index css*/
+.container {
+    width: 100%;
+    height: 100vh;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #fff;
+}
+
+.box-add {
+    width: 400px;
+    height: 100vh;
+    border: 1px solid black;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.box-list {
+    width: 800px;
+    height: 100vh;
+    border: 1px solid black;
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.title-list {
+    margin-left: 200px;
+    margin-bottom: 50px;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+/* Add Form css*/
+.container-add {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+}
+
+.input-add-name {
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    width: 100%;
+    padding: 0px 10px;
+    min-height: 31px;
+}
+
+.textarea-add {
+    margin-top: 5px;
+    border: solid black;
+    font: 12px/14px 'Source Sans Pro',sans-serif;
+    font-size: 14px;
+}
+
+.input-date {
+    min-height: 31px;
+    padding: 0 10px;
+    border: solid black;
+}
+
+.label {
+    font-weight: 700;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 25px;
+}
+
+.item-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.select {
+    min-height: 31px;
+    padding: 0 10px;
+    border: solid black;
+}
+
+.submit {
+    margin-top: 40px;
+    width: 100%;
+    color: white;
+    background-color: #04B431;
+    min-height: 31px;
+    border-radius: 5px;
+}
+
+/*To Do List CSS*/
+.search {
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    width: 550px;
+    padding: 0px 10px;
+    min-height: 31px;
+}
+
+.container-list {
+    border: 1px solid black;
+    width: 550px;
+    min-height: 30px;
+    margin-top: 20px;
+}
+
+.item-list {
+    display: grid;
+    grid-template-columns: 30px 200px auto 100px ;
+    padding: 20px;
+}
+
+.checkbox {
+    margin-top: 5px;
+}
+.todo {
+    margin-top: 5px;
+    font: 12px/14px 'Source Sans Pro',sans-serif;
+    font-size: 15px;
+}
+
+.button_detail {
+    margin-top: 3px;
+    border: 1px solid #01A9DB;
+    border-radius: 5px;
+    background-color: #01A9DB;
+    color: white;
+    width: 70px;
+    height: 26px;
+    margin-left: 100px;
+    font: 12px/14px 'Source Sans Pro',sans-serif;
+    font-size: 12px;
+}
+
+.button_remove {
+    margin-top: 3px;
+    border: 1px solid #DF013A;
+    border-radius: 5px;
+    background-color: #DF013A;
+    color: white;
+    width: 70px;
+    height: 26px;
+    margin-left: 20px;
+    font: 12px/14px 'Source Sans Pro',sans-serif;
+    font-size: 12px;
+}
+
+/* Edit Form CSS*/
+
+.box-edit {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.bulk-action {
+    bottom:0;
+    width: 720px;
+    right:0;
+    position: absolute;
+    background-color: #E0E0E0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+.button-done {
+    border: 1px solid #01A9DB;
+    background-color: #01A9DB;
+    color: white;
+    width: 70px;
+    height: 26px;
+    font: 12px/14px 'Source Sans Pro',sans-serif;
+    font-size: 12px;
+}
+
+.button-remove {
+    border: 1px solid #DF013A;
+    background-color: #DF013A;
+    color: white;
+    width: 70px;
+    height: 26px;
+    font: 12px/14px 'Source Sans Pro',sans-serif;
+    font-size: 12px;
+}
